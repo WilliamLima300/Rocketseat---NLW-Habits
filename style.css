@@ -1,0 +1,99 @@
+/* Zerando margin da pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Adicionando configurações do body */
+body {
+  background-color: #09090a;
+  color: white;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+}
+
+/* Adicionar configurações do botão no header */
+button {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+/* Adicionar configuração do form */
+#form-habits {
+  display: flex;
+  padding: 0 48px;
+}
+
+/* adicionar configurações div habits */
+.habits {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* adicionar configurações div habit */
+.habit {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* adicionar configurações div days */
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+/* adicionar configurações div day */
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8px;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 125%;
+  color: #a1a1aa;
+}
+
+/* Adicionar configurações dos input */
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272a;
+  border-radius: 8px;
+}
+
+input:checked {
+  background: #8b5cf6;
+  border: 2px solid #8b5cf6;
+}
