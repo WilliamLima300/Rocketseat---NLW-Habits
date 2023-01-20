@@ -12,11 +12,14 @@ body {
   height: 100vh;
 }
 
+/* Adicionando configurações do header */
 header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 48px;
+  position: fixed;
 }
 
 /* Adicionar configurações do botão no header */
@@ -37,8 +40,9 @@ button {
 
 /* Adicionar configuração do form */
 #form-habits {
+  width: fit-content;
   display: flex;
-  padding: 0 48px;
+  padding: 182px 48px 48px;
 }
 
 /* adicionar configurações div habits */
@@ -85,8 +89,8 @@ button {
 
 /* Adicionar configurações dos input */
 input {
-  appearance: none;
   -webkit-appearance: none;
+  appearance: none;
   width: 64px;
   height: 64px;
   border: 2px solid #27272a;
@@ -96,4 +100,14 @@ input {
 input:checked {
   background: #8b5cf6;
   border: 2px solid #8b5cf6;
+}
+
+/* BREAKPOINTS */
+
+/* DISPOSITIVOS MEDIOS -> PEQUENOS */
+
+@media (max-width: 570px) {
+  button div {
+    display: none;
+  }
 }
