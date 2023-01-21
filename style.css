@@ -40,6 +40,7 @@ button {
 
 /* Adicionar configuração do form */
 #form-habits {
+  width: -moz-fit-content;
   width: fit-content;
   display: flex;
   padding: 182px 48px 48px;
